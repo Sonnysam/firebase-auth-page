@@ -29,11 +29,14 @@ export default function Login() {
 
         {/* Button Section */}
         <View>
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => {}}
-          >
+          <TouchableOpacity style={styles.button} onPress={() => {}}>
             <Text style={styles.button}>Login</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View>
+          <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <Text style={styles.button}>Register</Text>
           </TouchableOpacity>
         </View>
       </View>
