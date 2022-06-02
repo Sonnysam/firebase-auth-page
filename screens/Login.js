@@ -27,16 +27,16 @@ export default function Login() {
       </View>
       <View style={styles.inputCon}>
         <TextInput
-          placeholder="Email"
+          placeholder="Example@gmail.com"
           style={styles.input}
-          // value={}
-          // onChangeText={}
+          value={email}
+          onChangeText={text => setEmail(text)}
         />
         <TextInput
           placeholder="Password"
           style={styles.input}
-          // value={}
-          // onChangeText={}
+          value={password}
+          onChangeText={text => setPassword(text)}
           secureTextEntry
         />
 
